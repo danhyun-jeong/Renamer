@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EABC3FD2FC8CA3800761207 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 5EABC3FC2FC8CA3800761207 /* AppIcon.icon */; };
+		BB00000000000000000001FF /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000001FF /* AppState.swift */; };
+		BB00000000000000000002FF /* String+CurlyQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000002FF /* String+CurlyQuotes.swift */; };
+		BB00000000000000000003FF /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000003FF /* MenuBarContentView.swift */; };
+		BB00000000000000000004FF /* ActivityEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000004FF /* ActivityEntry.swift */; };
+		BB00000000000000000005FF /* NameTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000005FF /* NameTemplate.swift */; };
+		BB00000000000000000006FF /* RenamerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000006FF /* RenamerApp.swift */; };
+		BB00000000000000000007FF /* AnthropicService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000007FF /* AnthropicService.swift */; };
+		BB00000000000000000008FF /* DownloadsFolderWatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000008FF /* DownloadsFolderWatcher.swift */; };
+		BB00000000000000000009FF /* FileRenamerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00000000000000000009FF /* FileRenamerService.swift */; };
+		BB0000000000000000000AFF /* ImageAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000AFF /* ImageAnalyzer.swift */; };
+		BB0000000000000000000BFF /* PDFAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000BFF /* PDFAnalyzer.swift */; };
+		BB0000000000000000000CFF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000CFF /* SettingsView.swift */; };
+		BB0000000000000000000DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000DFF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EABC3FC2FC8CA3800761207 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		AA00000000000000000001FF /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppState.swift; path = Sources/Renamer/AppState.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000002FF /* String+CurlyQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "String+CurlyQuotes.swift"; path = "Sources/Renamer/Extensions/String+CurlyQuotes.swift"; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000003FF /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MenuBarContentView.swift; path = Sources/Renamer/MenuBarContentView.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000004FF /* ActivityEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ActivityEntry.swift; path = Sources/Renamer/Models/ActivityEntry.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000005FF /* NameTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NameTemplate.swift; path = Sources/Renamer/NameTemplate.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000006FF /* RenamerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RenamerApp.swift; path = Sources/Renamer/RenamerApp.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000007FF /* AnthropicService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnthropicService.swift; path = Sources/Renamer/Services/AnthropicService.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000008FF /* DownloadsFolderWatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DownloadsFolderWatcher.swift; path = Sources/Renamer/Services/DownloadsFolderWatcher.swift; sourceTree = SOURCE_ROOT; };
+		AA00000000000000000009FF /* FileRenamerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FileRenamerService.swift; path = Sources/Renamer/Services/FileRenamerService.swift; sourceTree = SOURCE_ROOT; };
+		AA0000000000000000000AFF /* ImageAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageAnalyzer.swift; path = Sources/Renamer/Services/ImageAnalyzer.swift; sourceTree = SOURCE_ROOT; };
+		AA0000000000000000000BFF /* PDFAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PDFAnalyzer.swift; path = Sources/Renamer/Services/PDFAnalyzer.swift; sourceTree = SOURCE_ROOT; };
+		AA0000000000000000000CFF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Sources/Renamer/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		AA0000000000000000000DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		AA0000000000000000000EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		AA0000000000000000000FFF /* Renamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD00000000000000000003FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC00000000000000000001FF = {
+			isa = PBXGroup;
+			children = (
+				CC00000000000000000002FF /* Renamer */,
+				CC00000000000000000006FF /* Resources */,
+				CC00000000000000000007FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC00000000000000000002FF /* Renamer */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000006FF /* RenamerApp.swift */,
+				AA00000000000000000001FF /* AppState.swift */,
+				AA00000000000000000003FF /* MenuBarContentView.swift */,
+				AA0000000000000000000CFF /* SettingsView.swift */,
+				AA00000000000000000005FF /* NameTemplate.swift */,
+				CC00000000000000000003FF /* Extensions */,
+				CC00000000000000000004FF /* Models */,
+				CC00000000000000000005FF /* Services */,
+			);
+			name = Renamer;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000003FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000002FF /* String+CurlyQuotes.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000004FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000004FF /* ActivityEntry.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000005FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA00000000000000000007FF /* AnthropicService.swift */,
+				AA00000000000000000008FF /* DownloadsFolderWatcher.swift */,
+				AA00000000000000000009FF /* FileRenamerService.swift */,
+				AA0000000000000000000AFF /* ImageAnalyzer.swift */,
+				AA0000000000000000000BFF /* PDFAnalyzer.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000006FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EABC3FC2FC8CA3800761207 /* AppIcon.icon */,
+				AA0000000000000000000DFF /* Assets.xcassets */,
+				AA0000000000000000000EFF /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CC00000000000000000007FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000FFF /* Renamer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1100000000000000000001FF /* Renamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF00000000000000000002FF /* Build configuration list for PBXNativeTarget "Renamer" */;
+			buildPhases = (
+				DD00000000000000000001FF /* Sources */,
+				DD00000000000000000003FF /* Frameworks */,
+				DD00000000000000000002FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Renamer;
+			productName = Renamer;
+			productReference = AA0000000000000000000FFF /* Renamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2200000000000000000001FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1700;
+				LastUpgradeCheck = 2650;
+				TargetAttributes = {
+					1100000000000000000001FF = {
+						CreatedOnToolsVersion = 17.0;
+					};
+				};
+			};
+			buildConfigurationList = FF00000000000000000001FF /* Build configuration list for PBXProject "Renamer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ko;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ko,
+				Base,
+			);
+			mainGroup = CC00000000000000000001FF;
+			productRefGroup = CC00000000000000000007FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1100000000000000000001FF /* Renamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD00000000000000000002FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000DFF /* Assets.xcassets in Resources */,
+				5EABC3FD2FC8CA3800761207 /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD00000000000000000001FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB00000000000000000001FF /* AppState.swift in Sources */,
+				BB00000000000000000002FF /* String+CurlyQuotes.swift in Sources */,
+				BB00000000000000000003FF /* MenuBarContentView.swift in Sources */,
+				BB00000000000000000004FF /* ActivityEntry.swift in Sources */,
+				BB00000000000000000005FF /* NameTemplate.swift in Sources */,
+				BB00000000000000000006FF /* RenamerApp.swift in Sources */,
+				BB00000000000000000007FF /* AnthropicService.swift in Sources */,
+				BB00000000000000000008FF /* DownloadsFolderWatcher.swift in Sources */,
+				BB00000000000000000009FF /* FileRenamerService.swift in Sources */,
+				BB0000000000000000000AFF /* ImageAnalyzer.swift in Sources */,
+				BB0000000000000000000BFF /* PDFAnalyzer.swift in Sources */,
+				BB0000000000000000000CFF /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE00000000000000000001FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE00000000000000000002FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE00000000000000000003FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danhyun.Renamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OTHER_FLAGS = "-strict-concurrency=minimal";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EE00000000000000000004FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				DEAD_CODE_STRIPPING = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danhyun.Renamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OTHER_FLAGS = "-strict-concurrency=minimal";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF00000000000000000001FF /* Build configuration list for PBXProject "Renamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00000000000000000001FF /* Debug */,
+				EE00000000000000000002FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF00000000000000000002FF /* Build configuration list for PBXNativeTarget "Renamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00000000000000000003FF /* Debug */,
+				EE00000000000000000004FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2200000000000000000001FF /* Project object */;
+}

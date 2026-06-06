@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>Renamer</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.danhyun.Renamer</string>
+	<key>CFBundleName</key>
+	<string>Renamer</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>다운로드 폴더의 새 파일을 감지하여 이름을 자동으로 변경합니다.</string>
+</dict>
+</plist>

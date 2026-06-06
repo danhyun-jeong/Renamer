@@ -1,0 +1,51 @@
+{
+  "fill" : {
+    "solid" : "srgb:0.78167,0.81728,0.95789,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "renamer L3.svg",
+          "name" : "renamer L3",
+          "opacity" : 1,
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              -1.03125,
+              13.203125
+            ]
+          }
+        },
+        {
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "renamer L2.svg",
+          "name" : "renamer L2"
+        },
+        {
+          "blend-mode" : "normal",
+          "fill" : "none",
+          "hidden" : false,
+          "image-name" : "renamer L1.svg",
+          "name" : "renamer L1",
+          "opacity" : 0.9
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
